@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PDFViewActivity">
+
+
+    <item
+        android:id="@+id/pickFile"
+        android:icon="@mipmap/ic_dowload"
+        android:title="@string/pick_file"
+        app:showAsAction="always" />
+
+    <item
+        android:icon="@drawable/ic_marcador"
+        android:id="@+id/marcador"
+        android:title="@string/market"
+        app:showAsAction="always" />
+
+    <item
+        android:icon="@drawable/ic_back"
+        android:id="@+id/action_back"
+        android:title="@string/action_back"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo"
+    tools:context="onei.villaclara.cu.aec.AboutActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="@dimen/_25sdp"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="@string/aec"
+                android:lines="3"
+                android:ems="3"
+                android:lineSpacingExtra="@dimen/_3sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textStyle="italic"
+                android:textColor="@color/colorAccent"
+                android:text="@string/co_descripcion"
+                android:id="@+id/textView1" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:id="@+id/tvInfo"
+                android:text="@string/texto_onei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:gravity="fill_horizontal"
+                android:textAlignment="gravity"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:lineSpacingExtra="@dimen/_3sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_autor"/>
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/co_autor"
+                        android:textColor="@color/colorAccent"
+                        android:paddingLeft="5dp"
+                        android:textSize="20sp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textStyle="italic"
+                        android:gravity="left|center"/>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:text="@string/autor2"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/textView6" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/linearEmail">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:gravity="left"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="italic"
+                    android:text="@string/co_mail"
+                    android:id="@+id/textView7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:paddingLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/email_autor"
+                    android:id="@+id/textView8" />
+
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_autor"/>
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/colaborador_term"
+                        android:textColor="@color/colorAccent"
+                        android:paddingLeft="5dp"
+                        android:textSize="20sp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textStyle="italic"
+                        android:gravity="left|center"/>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:text="@string/colaborador"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/textView16" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/linearEmailColab">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:gravity="left"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="italic"
+                    android:text="@string/co_mail"
+                    android:id="@+id/textViewColab" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:paddingLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/email_colaborador"
+                    android:id="@+id/textViewColab2" />
+
+            </LinearLayout>-->
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

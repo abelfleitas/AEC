@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004589</color>
+    <color name="colorPrimaryDark">#013c76</color>
+    <color name="colorAccent">#e6c720</color>
+
+    <color name="strokeColor">#ffffff</color>
+    <color name="fillColor">#2196F3</color>
+
+
+    <!-- Dialog -->
+    <color name="color_dialog_gray">#ededf3</color>
+    <color name="color_dialog_content">#ed7861</color>
+    <color name="color_dialog_title">#303030</color>
+    <color name="color_dialog_content_prompt">#343434</color>
+    <color name="color_type_info">#79b3e4</color>
+    <color name="color_type_help">#e6c720</color>
+    <color name="color_type_wrong">#ed7861</color>
+    <color name="color_type_warning">#e8bd4b</color>
+    <color name="color_type_success">#90b06e</color>
+    <color name="color_type_bluedark">#6e85b0</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>

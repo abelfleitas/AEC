@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">CubAnuario 2018</string>
+    <string name="loading">Cargando datos \n\nespere unos segundos...</string>
+    <string name="aec">ANUARIO ESTADÍSTICO \nDE CUBA</string>
+    <string name="fillable_path">M 39.17,19.83 C 33.79,16.61 34.26,8.20 39.17,4.74 41.79,2.84 44.91,3.03 48.00,3.00 48.00,3.00 48.00,6.00 48.00,6.00 36.69,6.67 38.34,14.72 42.15,16.98 43.91,18.02 46.04,17.93 48.00,18.00 48.00,18.00 48.00,21.00 48.00,21.00 45.31,20.99 41.57,21.22 39.17,19.83 Z M 13.33,5.02 C 14.89,4.07 16.28,4.14 18.00,4.00 18.00,4.00 18.00,21.00 18.00,21.00 18.00,21.00 15.00,21.00 15.00,21.00 15.00,21.00 15.00,16.00 15.00,16.00 15.00,16.00 3.00,21.00 3.00,21.00 4.57,17.48 10.31,6.85 13.33,5.02 Z M 34.00,4.00 C 34.00,4.00 34.00,7.00 34.00,7.00 34.00,7.00 21.00,7.00 21.00,7.00 21.00,7.00 21.00,4.00 21.00,4.00 21.00,4.00 34.00,4.00 34.00,4.00 Z M 11.00,14.00 C 11.00,14.00 15.00,14.00 15.00,14.00 15.00,14.00 15.00,7.00 15.00,7.00 15.00,7.00 11.00,14.00 11.00,14.00 Z M 31.00,10.00 C 31.00,10.00 31.00,13.00 31.00,13.00 31.00,13.00 21.00,13.00 21.00,13.00 21.00,13.00 21.00,10.00 21.00,10.00 21.00,10.00 31.00,10.00 31.00,10.00 Z M 34.00,17.00 C 34.00,17.00 34.00,20.00 34.00,20.00 34.00,20.00 21.00,20.00 21.00,20.00 21.00,20.00 21.00,17.00 21.00,17.00 21.00,17.00 34.00,17.00 34.00,17.00 Z</string>
+    <string name="title_activity_main">INICIO</string>
+    <string name="onei">OFICINA NACIONAL \nDE ESTADÍSTICA E INFORMACIÓN \nREPÚBLICA DE CUBA</string>
+    <string name="edition">EDICIÓN 2019</string>
+    <string name="year">2018</string>
+    <string name="confirm">Confirmación</string>
+    <string name="confirm_exit">¿Está seguro que desea salir?</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="md_cancel_label">Cancelar</string>
+    <string name="action_info">INFORMACIÓN</string>
+    <string name="chapters">CAPÍTULOS</string>
+    <string name="action_back">Volver</string>
+    <string name="pick_file">Descargar Archivo</string>
+    <string name="market">Marcador</string>
+    <string name="co_categoria">General</string>
+    <string name="co_lector">Lector PDF</string>
+    <string name="co_direccion">Dirección</string>
+    <string name="co_fax1">Fax</string>
+    <string name="co_tel1">Teléfono</string>
+    <string name="co_web1">Página Web</string>
+    <string name="co_mail">E-mail</string>
+    <string name="co_tel">(537)836 9191</string>
+    <string name="co_telreal">537 836 9191</string>
+    <string name="co_fax">(053)833 3083</string>
+    <string name="co_email">usuario@onei.gob.cu</string>
+    <string name="co_web">http://www.onei.cu</string>
+    <string name="co_redes">Redes Sociales</string>
+    <string name="co_facebook">https://www.facebook.com/onei.gob.cu</string>
+    <string name="co_twitter">https://www.twitter.com</string>
+    <string name="call_email">No existe una aplicación para realizar esta tarea</string>
+    <string name="co_address">
+        Paseo No.60 e/3ra y 5ta Vedado Plaza de la Revolución, La Habana Cuba. Código Postal 10400
+    </string>
+    <string name="co_descripcion">Descripción:</string>
+    <string name="co_autor">Programación</string>
+    <string name="texto_onei">
+            AEC es un aplicación para la plataforma Android
+        desarrollada por el departamento de Informática de la Oficina Provincial
+        de Estadísticas e Información (OPEI) de la provincia Villa Clara.
+        Su principal objetivo es difundir los datos estadísticos
+        captados por la Oficina Nacional de Estadísticas e Información (ONEI)
+        de la República de Cuba.
+        \n
+    </string>
+    <string name="autor2">Ing. Abel Alejandro Fleitas Perdomo</string>
+    <string name="email_autor">afleitasp@gmail.com</string>
+    <string name="colaborador">Ing.Luis Alberto Jiménez Martínez</string>
+    <string name="colaborador_term">Colaborador</string>
+    <string name="email_colaborador">luisothegreat@gmail.com</string>
+    <string name="general_info">La publicación Anuario Estadístico de Cuba 2018 de la Oficina Nacional de Estadística e Información (ONEI),
+        constituye una importante información estadística que refleja los aspectos más significativos de la situación demográfica, económica
+        y social de los cubanos. \n\nEl mismo consta de 23 capítulos. \n\nCada capítulo contiene una breve introducción donde se explica el
+        contenido, la fuente de información de los datos, así como la definición metodológica de los principales indicadores.
+    </string>
+
+    <string name="c0">1. Territorio</string>
+    <string name="c1">2. Medio Ambiente</string>
+    <string name="c2">3. Población</string>
+    <string name="c3">4. Organización Institucional</string>
+    <string name="c4">5. Cuentas Nacionales</string>
+    <string name="c5">6. Finanzas</string>
+    <string name="c6">7. Empleo y Salarios</string>
+    <string name="c7">8. Sector Externo</string>
+    <string name="c8">9. Agricultura, Ganadería, Silvicultura y Pesca</string>
+    <string name="c9">10. Minería y Energía</string>
+    <string name="c10">11. Industria Manufacturera</string>
+    <string name="c11">12. Construcción e Inversiones</string>
+    <string name="c12">13. Transporte</string>
+    <string name="c13">14. Comercio Interno</string>
+    <string name="c14">15. Turismo</string>
+    <string name="c15">16. Ciencia y Tecnología</string>
+    <string name="c16">17. Tecnologías de la Información y las Comunicaciones</string>
+    <string name="c17">18. Educación</string>
+    <string name="c18">19. Salud Pública y Asistencia Social</string>
+    <string name="c19">20. Cultura</string>
+    <string name="c20">21. Deporte y Cultura Física</string>
+    <string name="c21">22. Proceso Electoral en Cuba</string>
+    <string name="c22">23. Accidentes del Tránsito</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_Buscar">Buscar</string>
+    <string name="menu_hint_Buscar">Buscar...</string>
+    <string name="msg_search_text_on_page">"Buscando en la página %1$d…"</string>
+
+
+    <string name="action_contact">CONTACTO - ONEI</string>
+    <string name="action_settings">PREFERENCIAS</string>
+    <string name="action_about">ACERCA DE</string>
+
+    <!-- Preferencia -->
+    <string name="pref_categoria">General</string>
+    <string name="homeScreenShortcout">Crear acceso directo en pantalla de inicio</string>
+    <string name="addHomeScreenShortcout">Crear acceso directo en pantalla de inicio para acceder directamente a AEC</string>
+    <string name="rebootAppHeader">Inicio automático</string>
+    <string name="rebootApp3">Abrir la aplicación siempre que se encienda el smartphone.</string>
+    <string name="addedHomeScreenShortcout">Acceso directo en pantalla de inicio creado</string>
+    <string name="shut_down">No apagar la pantalla</string>
+    <string name="shut_down_text">Mantener la pantalla siempre encendidad</string>
+    <string name="full_screen">Pantalla Completa</string>
+    <string name="activo">Activado</string>
+    <string name="desactivo">Desactivado</string>
+    <string name="night_mode">Modo Oscuro</string>
+    <string name="pref_msj_orientacion">Orientación del Scroll</string>
+
+    <string-array name="scroll_orientacion">
+        <item>Vertical</item>
+        <item>Horizontal</item>
+    </string-array>
+
+    <string-array name="scroll_orientacion_num">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="alerta2">Alerta!!!</string>
+    <string name="rebootError2">Ha ocurrido un error al iniciar la aplicación. Por favor, contáctenos</string>
+    <string name="contact_us">Contáctenos</string>
+    <string name="error">Error</string>
+    <string name="choose">Elija la aplicación</string>
+    <string name="noappemail">No posee aplicaciones para poder enviar correos</string>
+
+
+    <string name="speak_now">Speak now</string>
+
+</resources>

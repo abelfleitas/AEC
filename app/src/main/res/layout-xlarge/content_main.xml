@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="onei.villaclara.cu.aec.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout android:orientation="vertical"
+        android:background="@drawable/fondo"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:textSize="@dimen/_50sdp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="@string/aec"
+            android:lines="3"
+            android:ems="3"
+            android:lineSpacingExtra="@dimen/_3sdp" />
+
+        <TextView
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:id="@+id/tvYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/year"
+            android:lines="2"
+            android:ems="3" />
+
+        <TextView
+            android:textSize="@dimen/_50sdp"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:id="@+id/tvEdition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edition"
+            android:lines="2" android:ems="2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:id="@+id/imgvOnei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_above="@+id/tvOnei"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/onei"/>
+
+            <TextView
+                android:textSize="@dimen/_25sdp"
+                android:textColor="#fff"
+                android:id="@+id/tvOnei"
+                android:paddingLeft="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/onei"
+                android:ems="2"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
